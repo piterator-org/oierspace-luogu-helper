@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name           OIer Space Luogu Helper
+// @author         Piterator
 // @namespace      https://oier.space/
 // @description    Safely and quickly import articles into OIer Space.
 // @description:zh 安全且快速地导入文章到 OIer Space
 // @iconURL        https://static.pisearch.cn/logonew.min.svg
 // @icon64URL      https://static.pisearch.cn/logonew.min.svg
-// @version        1.1.1
+// @version        1.1.2
 //
 // @match          https://www.luogu.com.cn/blogAdmin*
 //
