@@ -6,7 +6,7 @@
 // @description:zh 安全且快速地导入文章到 OIer Space
 // @iconURL        https://static.pisearch.cn/logonew.min.svg
 // @icon64URL      https://static.pisearch.cn/logonew.min.svg
-// @version        1.1.2
+// @version        1.1.3
 //
 // @match          https://www.luogu.com.cn/blogAdmin*
 //
@@ -95,6 +95,11 @@ if (window.location.pathname == "/blogAdmin/article/list" && getQueryString("pag
                     })
                 }
             })
+        })
+    })
+    $("a[data-target-page]").each(function () {
+        $(this).click(() => {
+            window.location.href = `https://www.luogu.com.cn/blogAdmin/article/list?pageType=list&page=${ $(this).attr("data-target-page") }`
         })
     })
 }
