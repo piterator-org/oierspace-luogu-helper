@@ -6,7 +6,7 @@
 // @description:zh 安全且快速地导入文章到 OIer Space
 // @iconURL        https://static.pisearch.cn/logonew.min.svg
 // @icon64URL      https://static.pisearch.cn/logonew.min.svg
-// @version        1.1.3
+// @version        1.1.4
 //
 // @match          https://www.luogu.com.cn/blogAdmin*
 //
@@ -28,13 +28,13 @@ if (window.location.pathname == "/blogAdmin/article/list" && getQueryString("pag
     maindiv.innerHTML = `<div id="import-log"></div><br><div class="mdui-textfield mdui-center mdui-textfield-not-empty" style="padding: 0;">
         <label class="mdui-textfield-label">OIer Space 用户令牌</label>
         <div class="mdui-row">
-            <div class="mdui-col-xs-1"><a class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-block"
+            <div class="mdui-col-xs-2"><a class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-block"
                     href="https://oier.space/dashboard/tokens/" target="_blank">获取令牌</a></div>
             <div class="mdui-col-xs-5">
                 <input name="user_token" id="user_token" class="mdui-textfield-input" type="text"
                     placeholder="OIer Space 用户令牌">
             </div>
-            <div class="mdui-col-xs-6">
+            <div class="mdui-col-xs-5">
                 <label class="mdui-checkbox">
                     <input type="checkbox" id="replace" checked>
                     <i class="mdui-checkbox-icon"></i>
